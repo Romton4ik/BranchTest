@@ -1,0 +1,12 @@
+[class^="box-"] {
+    background-color: skyblue;
+    /* Розміщуємо контейнери по центру */
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px auto 100px;
+}
