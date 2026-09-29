@@ -1,4 +1,4 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -7,40 +7,41 @@ body {
 	background-color: red;
 }
 
-.modal-wrapper{
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	background-color:gray;
-	opacity:50%;
-	display:flex;
-	justify-content:center;
-	display:none;
+.modal-wrapper {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: gray;
+	opacity: 50%;
+	display: flex;
+	justify-content: center;
+	display: none;
 }
 
-.modal{
-	position:absolute;
-	top:20%;
-	background-color:white;
+.modal {
+	position: absolute;
+	top: 20%;
+	background-color: white;
 	box-shadow: 10px 10px 13px 10px black;
 }
 
 .modal-header {
-	background-color:blue;
-	margin-bottom:20px;
-	display:flex;
-	justify-content:flex-end;
+	background-color: blue;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
 }
 
-.close-modal{
-	margin:0;
-	padding-right:10px;
-	color:white;
-	cursor:pointer;
+.close-modal {
+	margin: 0;
+	padding-right: 10px;
+	color: white;
+	cursor: pointer;
 }
 
-input, button{
-	margin:20px;
+input,
+button {
+	margin: 20px;
 }
